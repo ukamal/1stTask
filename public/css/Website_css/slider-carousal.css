@@ -1,0 +1,100 @@
+/*
+ Bootstrap Image Carousel Slider with Animate.css
+ Code snippet by Hashif (http://hashif.com) for Bootsnipp.com
+ Image credits: unsplash.com
+ /********************************/
+/*          Main CSS     */
+/********************************/
+
+#first-slider .main-container {
+	padding: 0;
+}
+
+#first-slider .slide1 .text-left, #first-slider .slide3 .text-left {
+	padding-left: 40px;
+}
+
+#first-slider .carousel-indicators {
+	bottom: 0;
+}
+#first-slider .carousel-control.right, #first-slider .carousel-control.left {
+	background-image: none;
+}
+#first-slider .carousel .item {
+	min-height: 425px;
+	height: 100%;
+	width: 100%;
+}
+
+#first-slider h2 {
+	animation-delay: 3s;
+}
+
+#first-slider .carousel-control {
+	width: 6%;
+	text-shadow: none;
+}
+
+#first-slider .carousel-indicators li {
+	width: 5px;
+	height: 5px;
+	background-color: rgba(255,255,255,.4);
+	border: none;
+}
+#first-slider .carousel-indicators .active {
+	width: 8px;
+	height: 8px;
+	background-color: #fff;
+	border: none;
+}
+
+.carousel-fade .carousel-inner .item {
+	-webkit-transition-property: opacity;
+	transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item, .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
+	opacity: 0;
+}
+.carousel-fade .carousel-inner .active, .carousel-fade .carousel-inner .next.left, .carousel-fade .carousel-inner .prev.right {
+	opacity: 1;
+}
+.carousel-fade .carousel-inner .next, .carousel-fade .carousel-inner .prev, .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
+	left: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+	z-index: 2;
+}
+
+
+
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+#first-slider .slide1 {
+	background-image: url(../../images/slider/main-slider-banner-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#first-slider .slide2 {
+	background-image: url(../../images/slider/main-slider-banner-3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#first-slider .slide3 {
+	background-image: url(../../images/slider/main-slider-banner-4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px) {
+}
+@media screen and (max-width: 640px) {
+}
+

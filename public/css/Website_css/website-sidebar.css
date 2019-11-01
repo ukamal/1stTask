@@ -1,0 +1,238 @@
+/*
+ .mini-submenu {
+ background-color: rgba(0, 0, 0, 0);
+ border: 1px solid rgba(0, 0, 0, 0.9);
+ border-radius: 4px;
+ padding: 9px;
+ width: 42px;
+ }
+
+ .mini-submenu:hover {
+ cursor: pointer;
+ }
+
+ .mini-submenu .icon-bar {
+ border-radius: 1px;
+ display: block;
+ height: 2px;
+ width: 22px;
+ margin-top: 3px;
+ }
+
+ .mini-submenu .icon-bar {
+ background-color: #000;
+ }
+
+ #slide-submenu {
+ background: rgba(0, 0, 0, 0.45);
+ display: inline-block;
+ padding: 0 8px;
+ border-radius: 4px;
+ cursor: pointer;
+ }*/
+
+.user-row {
+	margin-bottom: 14px;
+}
+
+.user-row:last-child {
+	margin-bottom: 0;
+}
+
+.dropdown-user {
+	margin: 13px 0;
+	padding: 5px;
+	height: 100%;
+}
+
+.dropdown-user:hover {
+	cursor: pointer;
+}
+
+.btn-div {
+	padding-bottom: 19px;
+}
+
+.programs-name {
+	color: #000000;
+	font-size: 20px;
+	font-family: 'Calibri';
+	font-weight: 400;
+}
+
+.programs-header-text {
+	padding: 1em;
+	font-size: 25px;
+	font-family: 'Calibri';
+}
+
+.panel-header {
+	color: #333;
+	background-color: #f5f5f5;
+	border-color: #ddd;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-top: -18px;
+	height: 49px;
+	margin-left: -4px;
+	width: 103%;
+}
+
+.bar-icon {
+	color: #f5f5f5;
+}
+
+@media screen and (max-width: 320px) {
+	.bar-icon {
+		padding-left: 5em;
+		color: #000000;
+	}
+
+	.programs-content-panel {
+		display: none;
+	}
+
+	.btn-div {
+		margin-left: 0%;
+	}
+	
+	.programs-name{
+		margin-left: 5%;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.bar-icon {
+		padding-left: 7em;
+		color: #000000;
+	}
+
+	.programs-content-panel {
+		display: none;
+	}
+
+	.btn-div {
+		margin-left: 0%;
+	}
+	
+	.programs-name{
+		margin-left: 5%;
+	}
+
+}
+
+a.accountLinks {
+	color: #000000;
+	text-decoration: none;
+}
+
+.account-content-panel {
+	padding-left: 17px;
+	padding-top: 17px;
+}
+
+a.accountLinks:hover {
+	text-decoration: none;
+	color: #f15f2a;
+	font-size: 18px;
+}
+
+.program-active{
+	font-size: 21px;
+	color: #f15f2a;	
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+/*a.accountLinks:hover + span+ i,  when link is hovered select i 
+a.accountLinks + span:hover+ i,  when space after link is hovered select i 
+a.accountLinks + span + i:hover { when icon is hovered select i 
+	visibility: visible;
+}
+
+a.accountLinks + span+ i { in all other case hide it 
+	visibility: hidden;
+}
+*/
+
+a.accountLinks.active {
+  	text-decoration: none;
+	color: #f15f2a;
+	font-size: 18px;
+}
+
+/*
+.icons.active{
+	visibility: visible;
+}
+
+.icons {
+	color: #f15f2a;
+}
+*/
+
+div.infoBox {
+	border: 1px solid #f5f5f5;
+	padding: 20px;
+	min-height: 189px;
+}
+
+.box_header {
+	text-decoration: underline;
+	font-weight: bolder;
+	font-size: 18px;
+	color: #000000;
+}
+
+.body_text{
+	color: #000000;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: lighter;
+}
+
+a.emailLinks {
+	color: #333;
+	text-decoration: none;
+}
+
+a.emailLinks:hover {
+	text-decoration: none;
+	color: #f15f2a;
+}
+
+.text-label {
+	color: #000000;
+	text-decoration: none;
+	font-weight: lighter;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.text-label-bold {
+	color: #000000;
+	text-decoration: none;
+}
+
+.asterik{
+	color: red;
+	text-align: left;
+	font-weight: bolder;
+}
+
+.btn-update {
+    color: #fff;
+    background-color: #f15f2a;
+    border-color: #f15f2a;
+}
+
+
+.btn-update:hover, .btn-update:focus {
+    color: #fff;
+    background-color: #f15f2a;
+    border-color: #f15f2a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.21);
+}

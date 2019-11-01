@@ -1,0 +1,39 @@
+.content {
+    padding: 0px 0px;
+}
+
+.dasboard-widgets{
+	min-height: 148px;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media(min-width:768px){
+}
+
+@media(min-width:992px) {
+    .wrapper {
+    	padding-left: 10px;
+    	padding-right: 10px;
+    }
+}
+@media (min-width: 768px) {
+}
+
+.subheader{
+	text-decoration: underline;
+}
+
+a.conten-number{
+	color: #000000;
+	font-size: 30px;
+}
+
+.content-amount{
+	color: #000000;
+	font-size: 22px;
+	text-align: center;
+}
+
+.sub-panel-heading{
+	text-decoration: underline;
+}

@@ -1,0 +1,494 @@
+.wrapper {
+	max-width: 1550px;
+	margin: 0 auto;
+	padding: 0px;
+	min-width: 320px;
+}
+.header {
+	width: 100%;
+	display: block;
+	min-height: 214px;
+	padding-top: 0px;
+}
+.headerwp {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0px;
+}
+.headerfull {
+	width: 100%;
+	background-color: #fdd670;
+	height: 60px;
+	position: relative;
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.16);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0,0.16);
+	box-shadow: 0 0 4px rgba(0,0,0,0.16);
+}
+.posrlt {
+	position: relative;
+}
+.headtoppart {
+	display: block;
+	width: 100%;
+	background-color: #f8f8f8;
+	height: 39px;
+	margin: 0px auto;
+	padding: 0px 0px;
+	min-width: 320px;
+}
+
+.headertopleft {
+	float: right;
+}
+.headertopright {
+	float: left;
+	text-align: left;
+}
+.headertopright a {
+	line-height: 39px;
+	color: #5f5f5f;
+	font-size: 14px;
+	padding: 0px 12px;
+	display: inline-block;
+	float:left;
+}
+.headertopright a:hover {
+	background-color: #272B37;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.headertopright a.facebookicon {
+	color: #3b5998;
+}
+.headertopright a.twittericon {
+	color: #55acee;
+}
+.headertopright a.linkedinicon {
+	color: #0077b5;
+}
+.headertopright a.googleicon {
+	color: #dd4b39;
+}
+
+.headertopright a.youtubeicon {
+	color: #CC181E;
+}
+
+.headertopright a.instagramicon {
+	color: #e95950;
+}
+
+.headertopright a.pinteresticon {
+	color: #cb2027;
+}
+
+.headertopright a.shopping_cart{
+	display: none;
+}
+
+
+.headertopright a.facebookicon:hover {
+	background-color: #3b5998;
+	color: #fff;
+}
+.headertopright a.twittericon:hover {
+	background-color: #55acee;
+	color: #fff;
+}
+.headertopright a.linkedinicon:hover {
+	background-color: #0077b5;
+	color: #fff;
+}
+.headertopright a.googleicon:hover {
+	background-color: #dd4b39;
+	color: #fff;
+}
+
+.headertopright a.youtubeicon:hover {
+	background-color: #CC181E;
+	color: #fff;
+}
+
+.headertopright a.instagramicon:hover {
+	background-color: #e95950;
+	color: #fff;
+}
+
+.headertopright a.pinteresticon:hover {
+	background-color: #cb2027;
+	color: #fff;
+}
+
+.headertopright a.shopping_cart:hover{
+	background-color: #f15f2a;
+	color: #fff;
+}
+
+
+.address {
+	padding: 10px 0px 0px 0px;
+	font-size: 12px;
+	color: #b6b6b6;
+}
+.address a {
+	color: #838383;
+}
+.address span {
+	margin-right: 9px;
+	color: #838383;
+}
+.address .fa {
+	margin-right: 6px;
+	margin-left: 6px;
+	color: #5f5f5f;
+}
+.norlt {
+	position: static;
+}
+.menuwrapper {
+	position: relative;
+}
+.show-grid {
+	background-color: #fff;
+}
+.btn-border {
+	border: 2px solid;
+	border-radius: 40px;
+	display: inline-block;
+	font-size: 13px;
+	text-transform: uppercase;
+	-moz-user-select: none;
+	background-image: none;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #fff;
+	padding: 15px 40px;
+}
+.btn-border:hover {
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.9;
+}
+.btn-border:focus {
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.9;
+}
+.moreoption {
+	width: 100%;
+	display: block;
+	margin-top: 290px;
+}
+.moreoption .boxheader {
+	border: solid 0px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	color: #717171;
+}
+.mobiletext02 {
+	display: none;
+}
+.buttoncolor {
+	color: #fff;
+	display: block;
+	font-size: 13px;
+	padding: 10px 15px;
+	text-decoration: none;
+	transition: background 0.3s linear 0s;
+	width: 12.5%;
+	height: 30px;
+	float: left;
+	text-align: center;
+	margin: 0px 0px;
+}
+.buttoncolor:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.buttoncolor:focus {
+	color: #fff;
+	text-decoration: none;
+}
+.buttoncolor03 {
+	color: #fff;
+	display: block;
+	font-size: 13px;
+	padding: 10px 15px;
+	text-decoration: none;
+	transition: background 0.3s linear 0s;
+	width: 12.5%;
+	height: 30px;
+	float: left;
+	text-align: center;
+	margin: 0px 0px;
+}
+.buttoncolor03:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.buttoncolor03:focus {
+	color: #fff;
+	text-decoration: none;
+}
+.headertlt {
+	width: 100%;
+	padding: 40px 0px 15px 0px;
+	letter-spacing: -0.5px;
+	font-size: 22px;
+	font-family: 'archivo_narrowregular';
+	color: #424242;
+}
+.colorlink01 {
+	width: 40%;
+	float: left;
+	margin: 0% 0% 0% 2%;
+}
+.colorlink02 {
+	width: 40%;
+	float: left;
+	margin: 0% 0% 0% 2%;
+}
+.colorlink03 {
+	width: 14%;
+	float: left;
+	margin: 0% 0% 0% 2%;
+}
+.buttoncolor02 {
+	color: #424242;
+	display: block;
+	font-size: 15px;
+	border-radius: 2px;
+	height: 30px;
+	padding: 10px 15px;
+	text-decoration: none;
+	transition: background 0.3s linear 0s;
+	width: 100%;
+	border-right: solid 5px #fff;
+	float: left;
+	text-align: center;
+	margin: 0% 0% 0% 0%;
+	background-color: #f2f2f2;
+	border: solid 1px #D9D9D9;
+	cursor: pointer;
+	text-align: center !important;
+	text-decoration: none !important;
+	width: 50%;
+	float: left;
+}
+.buttoncolor02:hover {
+	background-color: #424242;
+	color: #000;
+}
+.buttoncolor02.active {
+	background-color: #424242;
+	color: #fff;
+}
+.main-content {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+ @media only screen and (min-width: 230px) and (max-width:919px) {
+.wrapper {
+	width: 100%;
+	margin: 0% 0%;
+}
+.header {
+	min-height: 75px;
+}
+.logo {
+	display: none !important;
+}
+.header {
+	box-shadow: none !important;
+	background-image: none !important;
+}
+.colorlink01 {
+	width: 92% !important;
+	margin: 0% 4%;
+}
+.colorlink02 {
+	width: 92% !important;
+	margin: 0% 4%;
+}
+.colorlink03 {
+	width: 92% !important;
+	margin: 0% 4%;
+}
+.buttoncolor02 {
+	width: 100% !important;
+	margin-bottom: 2%;
+}
+.buttoncolor {
+	width: 25%;
+}
+.buttoncolor03 {
+	width: 25%;
+}
+.moreoption {
+	width: 100%;
+	margin: 85px 0 0 0;
+	background-color: transparent !important;
+	border: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+/*.headtoppart {
+	margin-top: 52px;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.2);
+}*/
+
+
+.headertopright a.facebookicon {
+	color: #3B5998;
+}
+.headertopright a.twittericon {
+	color: #1DA1F2;
+}
+.headertopright a.linkedinicon {
+	color: #0077b5;
+}
+.headertopright a.googleicon {
+	color: #dd4b39;
+}
+
+.headertopright a.youtubeicon {
+	color: #CC181E;
+}
+
+.headertopright a.instagramicon {
+	color: #e95950;
+}
+
+.headertopright a.pinteresticon {
+	color: #cb2027;
+}
+
+
+.headertopright a.shopping_cart{
+	display: inline;
+	color: #f15f2a;
+}
+
+.headtoppart {
+	margin-top: 52px;
+	height: auto;
+	background-color: #f8f8f8;
+}
+
+
+.topmenusearch {
+	margin: 0px 0 0;
+	width: 100%;
+}
+.topmenusearch input:focus {
+	width: 100%;
+}
+.posrlt {
+	width: 240px;
+	float: none;
+}
+.headerright {
+	width: 100%;
+	float: none;
+}
+.headertopleft {
+	float: none;
+	width: 96%;
+	margin: 0% 2%;
+}
+.headertopright {
+	float: none;
+	width: 96%;
+	margin: 0% 2%;
+}
+.address.clearfix:before, .address.clearfix:after {
+	content: "";
+	display: table;
+}
+.address.clearfix:after {
+	clear: both;
+}
+.address.clearfix {
+	zoom: 1;
+}
+.headertopleft {
+	display: none;
+}
+.headerfull {
+	height: auto;
+}
+.headertopright a {
+	width: 24%;
+	text-align: center;
+}
+}
+ @media only screen and (min-width: 920px) and (max-width:1064px) {
+.wrapper {
+	width: 96%;
+	margin: 0% 2%;
+}
+.colorlink01 {
+	width: 100% !important;
+	margin: 0%;
+}
+.colorlink02 {
+	width: 100% !important;
+	margin: 0%;
+}
+.colorlink03 {
+	width: 100% !important;
+	margin: 0%;
+}
+.buttoncolor02 {
+	width: 50% !important;
+	margin-bottom: 1%;
+}
+.logo {
+	float: none !important;
+	margin: 0 auto !important;
+	width: 100% !important;
+	text-align: center;
+}
+}
+ @media only screen and (min-width: 1024px) and (max-width:1200px) {
+.wrapper {
+	width: 96%;
+	margin: 0% 2%;
+}
+.colorlink01 {
+	width: 100% !important;
+	margin: 0%;
+}
+.colorlink02 {
+	width: 100% !important;
+	margin: 0%;
+}
+.colorlink03 {
+	width: 100% !important;
+	margin: 0%;
+}
+}
+ @media only screen and (min-width: 480px) and (max-width:780px) {
+.mobiletext02 {
+	display: inline-block;
+}
+}
+ @media only screen and (min-width: 320px) and (max-width:479px) {
+.headertopright a .fa {
+	margin-right: 0px;
+}
+}
